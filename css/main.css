@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MV Boli",sans-serif;
+}
+
+#root {
+    width: 80%;
+    margin: 30px auto;
+}
+h1  {
+    font-size: 54px;
+    color: hsla(199, 98%, 48%, 0.21);
+   text-align: center;
+}
+.item-list {
+    display: block;
+    width:100%;
+    border-bottom: 1px solid lightgrey;
+    padding-left: 10px;
+
+}
+img {
+    width: 100%;
+    padding-bottom: 2px;
+}
+#addItem {
+    width: 80%;
+    border: none;
+    outline-style: none;
+    opacity: 0.5;
+    display: block;
+    padding: 0.5em;
+    margin: 30px auto 0 auto;
+    font-size: 18px;
+    padding-left: 33px;
+}
+.list-box {
+    width: 80%;
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+    box-shadow: 0px 0px 11px 0px rgba(150, 150, 150, 0.62);
+}
+.item-name {
+    width: 53%;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+
+}
+.item-close {
+    display: inline-block;
+    width: 5%;
+    vertical-align: bottom;
+}
+button {
+    padding: 0px 5px;
+    width: 50px;
+}
+.deleted {
+    color: lightgrey;
+    text-decoration: line-through;
+}
+
